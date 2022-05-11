@@ -593,6 +593,11 @@ textarea {
     appearance         : none;
 }
 
+.highlighted {
+    background-color: #CDC9F9;
+}
+
+
 /* ===================================================================
  * # GRID v4.0.0
  *
