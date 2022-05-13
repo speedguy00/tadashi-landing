@@ -2919,7 +2919,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-header {
     --header-height  : 64px;
-    --logo-width     : 90px;
+    --logo-width     : 60px;
     z-index          : 100;
     background-color : transparent;
     height           : var(--header-height);
@@ -2940,7 +2940,7 @@ img.u-pull-left {
 
 .s-header.sticky {
     --header-height  : 80px;
-    --logo-width     : 82px;
+    --logo-width     : 52px;
     opacity          : 0;
     visibility       : hidden;
     background-color : var(--color-gray-19);
@@ -3171,7 +3171,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 800px) {
     .s-header {
-        --logo-width : 80px;
+        --logo-width : 50px;
         top          : var(--vspace-0_5);
     }
 
@@ -3687,6 +3687,7 @@ img.u-pull-left {
     border-radius    : var(--border-radius);
     padding          : var(--vspace-1_5) var(--vspace-1_75) var(--vspace-0_75) var(--vspace-1_75);
     text-align       : center;
+    justify-content: center;
     box-shadow       : 0 34px 20px -40px rgba(0, 0, 0, 0.1);
 }
 
